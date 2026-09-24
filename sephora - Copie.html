@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>programme</title>
+    <title>Sépho</title>
+    <link rel="stylesheet" href="sépho.css">
 </head>
+
 <body>
-    <h1>WELCOME EVERYONE</h1>
-    <a href="https://www.iisan-abidjan.com" target="_blank">lien</a> 
+    <main>
+        <form class="formulaire" method="">
+            <h1>inscription a la formation</footer></h1>
+            <p"intro">remplissez les champs ci-dessous pour vous inscrire.</p>
+            <div class=align: center"champs">
+                <label for="nom">NOM</label>
+                <input id="nom" type="nom" name="nom" autocomplete="nom" placeholder="nom" minlength="7" required>
+            </div> 
+            
+            <div class="champs">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" autocomplete="email" placeholder="emmanuel@gmail.com"
+                    required>
+            </div>
+            <div class="champs">
+                <label for="form">Niveau</label>
+                <select name="Niveau" id="Niveau">
+                    <option value="AUCUN">AUCUN</option>
+                    <option value="CEPE">CEPE</option>
+                    <option value="BEPC">BEPC</option>
+                    <option value="BAC">BAC</option>
+                    <option value="BTS">BTS</option>
+                    <option value="LICENCE">LICENCE</option>
+                </select>
+
+            </div>
+            <div class="champs">
+                <label for="file"></label>
+                <input id="file" type="file" name="file" required>
+            </div>
+            <fieldset>
+                <legend>Horaire</legend>
+                <label for="Horaire" class="mode">
+                    <input type="radio" name="mode" id="Horaire" value="matin">
+                    Matin
+                </label>
+                <label for="Horaire" class="mode">
+                    <input type="radio" name="mode" id="Horaire" value="soir">
+                    Soir
+                </label>
+            </fieldset>
+               <div class="champs">
+                <label for="tel"></label>
+                <textarea name="" id="" placeholder="votre avis..." rows="4" cols="2" ></textarea>
+             </div>
+              <button type="submit">accepter</button>
+         
+        </form>
+
+    </main>
 </body>
+
 </html>
